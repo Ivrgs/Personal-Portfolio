@@ -6,9 +6,6 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
 
-import { Link, Router } from "react-router-dom";
-import Privacy  from '../includes/privacy-policy';
-
 function App() {
   return (
     <div>
@@ -36,13 +33,7 @@ function App() {
 
                     <div class="row">
                         <div class="col-md-12">
-
-                {/* <Route path="./privacy-policy" exact component={() => <Privacy />} />
-             */}
-{/* 
-                <Router>
-                        <Link to={Privacy}>Privacy Policy</Link></Router> */}
-                        <button class="form-control" href="../includes/privacy-policy">Privacy Policy</button>
+                            <button class="form-control" data-toggle="modal" data-target="#exampleModalCenter">Privacy Policy</button>
                         </div>
                     </div>
                 </div>
