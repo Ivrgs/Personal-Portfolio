@@ -171,6 +171,9 @@ color:white;
   color:white;
   padding:1vw 0vw;
 }
+.link{
+  text-decoration: none !important; 
+}
 .myProject {
 
   z-index: 2;

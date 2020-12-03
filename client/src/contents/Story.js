@@ -16,7 +16,7 @@ function App() {
 					<div className="col-md-2"></div>
 					<div className="col-md-8 ">
 					<blockquote>Back in College, I was the coder in every group in our projects and it was amazing, Now I can collaborate with my friends with their projects when they need a help.
-						<cite>RodelIvan C. Vargas</cite>
+						<cite>Rodel Ivan C. Vargas</cite>
 					</blockquote>
 					</div>
 					<div className="col-md-2"></div>

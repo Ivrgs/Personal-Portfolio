@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState}  from 'react';
 import '../Main.css';
 import Responsive1 from '../assets/responsive-I.png';
 import Responsive2 from '../assets/Responsive Device.svg';
+
+let url="http://localhost/igamelibrary/";
 
 function App() {
   return (
@@ -10,9 +12,10 @@ function App() {
 			<div class="col-md-12 projectdiv">
 				<h1>My Projects</h1>
 			</div>
+		
 			<div class="row myprojectmain">
 				<div class="col-md-6">
-					<img src={Responsive1} alt="" /> 
+					<a href={url} target="_blank" className="link"><img src={Responsive1} alt="" /></a> 
 					<h3>Inventory System</h3>
 				</div>
 				<div class="col-md-6">
