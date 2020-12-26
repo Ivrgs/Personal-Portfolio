@@ -1,0 +1,16 @@
+1) Put in any folder
+2) Install nodejs
+https://nodejs.org/en/download/
+
+3) Install npm
+https://www.npmjs.com/get-npm
+
+4) command line (cmd) on directory "client" 
+cd Drive-letter:/any-path-name/any-folder-name/client/
+
+5) execute the command "npm start" without comma
+
+7) go to url: localhost:3000/
+
+Note:
+If you want on React Production Site, execute the command "npm run build" without comma and go to url: localhost:5000/
