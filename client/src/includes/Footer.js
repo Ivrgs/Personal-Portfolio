@@ -42,7 +42,7 @@ function App() {
             <div class=" row copyrights">
                 <div class="col-md-12">
                     <p class="plittle">This Page acts as my official website portfolio and I need your consent before you get anything from this website also it Serves as my reference in future</p>
-                    <p>&copy; 2020 Rodel Ivan C. Vargas Portfolio. All Rights Reserved</p>
+                    <p>&copy; 2021 Rodel Ivan C. Vargas Portfolio. All Rights Reserved</p>
                 </div>
             </div>
     </div>
