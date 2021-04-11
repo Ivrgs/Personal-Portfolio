@@ -78,17 +78,18 @@ p {
   width: 100%;
 }
 .myName p {
-  color: #c4c4c4;
+  color: #ece0e0;
 }
 .myName .social img {
   width: 75%;
 }
 .social img{
   box-shadow: 0px 0px 18px 1px rgba(255,255,255,0.4);
-  padding:10px;
   border-radius: 25%;
 }
-
+.social-img{
+  width: 100%;
+}
  /* First Divider */
  .a{
   opacity:0.4
@@ -142,6 +143,7 @@ color:white;
 .divider{
   width:100%; 
   fill:#020722;
+  line-height: 0px;
 }
 .aa{opacity:0.1;}.bb{opacity:0.4;}.cc{opacity:0.2;}.dd{fill:#b5bdc8;}
 .aaa{opacity:0.1;}.bbb{opacity:0.4;}.ccc{opacity:0.2;}.ddd{fill:#fff;}
@@ -186,7 +188,7 @@ blockquote {
   font-style: italic;
   width: 100%;
   margin: 0.25em 0;
-  padding: 0.35em 40px;
+  padding: 0.35em 20px;
   line-height: 1.45;
   position: relative;
   color: #383838;
@@ -262,6 +264,15 @@ blockquote cite:before {
   text-align: center;
   vertical-align: middle;
 }
+.footerlinks,  .privacy{
+  padding: 0px 5px;
+}
+@media only screen and (max-width:1366px){
+  .myName h1{
+    font-size:52px;
+  }
+
+}
 @media only screen and (max-width: 768px){
   .h1, h1{
     font-size: 3em;
@@ -287,11 +298,33 @@ blockquote cite:before {
   .myName .social img{
     width: 100%;
   }
+  .footerlayout p{
+    font-size: 1.1em;
+  }
+}
+@media only screen and (max-width:1024px){
+  .myinfo h1, h1{
+    font-size: 38px;
+  }
+  .myinfo-img{
+    margin:auto;
+  }
+  .myinfo-img img{
+    width:100%;
+  }
+  .myName .social img{
+    width:100%;
+  }
   .testimonial{
-    padding: unset;
+    padding:0vw 10vw;
+  }
+}
+@media only screen and (max-width:834px){
+  .myinfo h1, h1{
+    font-size: 30px;
   }
   .footerlayout p{
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
 }
 @media only screen and (max-width: 414px){
@@ -301,13 +334,17 @@ blockquote cite:before {
   .first{
     padding: 30vw 3vw 0vw 3vw;
     text-align: center;
+    flex-direction: column-reverse;
   }
   .first img{
     width: 75%;
   }
   .myName .social img{
-    width: 50%;
+    width: 75%;
     margin-bottom: 20px;
+  }
+  .social-img{
+    width: 50%;
   }
   .myinfo-img{
     margin-bottom: 10px;
