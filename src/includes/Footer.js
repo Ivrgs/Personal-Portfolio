@@ -32,7 +32,7 @@ function App() {
                     </div>
 
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 privacy">
                             <button class="form-control" data-toggle="modal" data-target="#exampleModalCenter">Privacy Policy</button>
                         </div>
                     </div>

@@ -13,13 +13,11 @@ function App() {
 			</div>
 			<div className="row storymain">
 				<div className="row testimonial">
-					<div className="col-md-2"></div>
-					<div className="col-md-8 ">
+					<div className="col-md-12 ">
 					<blockquote>Back in College, I was the coder in every group in our projects and it was amazing, Now I can collaborate with my friends with their projects when they need a help.
 						<cite>Rodel Ivan C. Vargas</cite>
 					</blockquote>
 					</div>
-					<div className="col-md-2"></div>
 				</div>
 				<div className="row colprojects">
 					<div className="col-md-12 ">
@@ -29,22 +27,14 @@ function App() {
 				<div className="row stories">	
 					<div className="col-md-4">
 						<img src={Ecommerce} alt="" />
-					</div>
-					<div className="col-md-4">
-						<img src={Mobile} alt="" />
-					</div>
-					<div className="col-md-4">
-						<img src={DIG} alt="" />
-					</div>
-				</div>
-				<div className="row">
-					<div className="col-md-4">
 						<h4>PHP Ecommerce</h4>
 					</div>
 					<div className="col-md-4">
+						<img src={Mobile} alt="" />
 						<h4>Laravel REST-API Mobile</h4>
 					</div>
 					<div className="col-md-4">
+						<img src={DIG} alt="" />
 						<h4>CodeIgniter3 DIG Transport</h4>
 					</div>
 				</div>
