@@ -298,10 +298,6 @@ blockquote cite:before {
   .myName .social img{
     width: 100%;
   }
-  /* .testimonial, .footerlinks,  .privacy{
-    padding: 0px px;
-  } */
-
   .footerlayout p{
     font-size: 1.1em;
   }
@@ -330,9 +326,6 @@ blockquote cite:before {
   .footerlayout p{
     font-size: 1.1em;
   }
-  /* .footerlinks, .privacy{
-    padding: 0px 5px;
-  } */
 }
 @media only screen and (max-width: 414px){
   .p p{
