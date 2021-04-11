@@ -117,11 +117,7 @@ p {
 #sectionproject h1{
 color:white;
 }
-#sectionproject .row {
-  width: 100%;
-  text-align: center;
-}
-#sectionproject img {
+#sectionproject .row, #sectionproject img  {
   width: 100%;
   text-align: center;
 }

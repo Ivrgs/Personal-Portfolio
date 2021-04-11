@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-React/static/css/main.2b9dd342.chunk.css",
+    "main.css": "/Personal-Portfolio-React/static/css/main.d3fd5953.chunk.css",
     "main.js": "/Personal-Portfolio-React/static/js/main.fa6d9f81.chunk.js",
     "main.js.map": "/Personal-Portfolio-React/static/js/main.fa6d9f81.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio-React/static/js/runtime-main.e01bfa51.js",
@@ -9,10 +9,10 @@
     "static/js/2.d9fc9295.chunk.js": "/Personal-Portfolio-React/static/js/2.d9fc9295.chunk.js",
     "static/js/2.d9fc9295.chunk.js.map": "/Personal-Portfolio-React/static/js/2.d9fc9295.chunk.js.map",
     "index.html": "/Personal-Portfolio-React/index.html",
-    "precache-manifest.27bc31657eb355496f46d82eeeddff83.js": "/Personal-Portfolio-React/precache-manifest.27bc31657eb355496f46d82eeeddff83.js",
+    "precache-manifest.28e20e9554aebdbc8633313e2bd12edd.js": "/Personal-Portfolio-React/precache-manifest.28e20e9554aebdbc8633313e2bd12edd.js",
     "service-worker.js": "/Personal-Portfolio-React/service-worker.js",
     "static/css/2.a5f06b7f.chunk.css.map": "/Personal-Portfolio-React/static/css/2.a5f06b7f.chunk.css.map",
-    "static/css/main.2b9dd342.chunk.css.map": "/Personal-Portfolio-React/static/css/main.2b9dd342.chunk.css.map",
+    "static/css/main.d3fd5953.chunk.css.map": "/Personal-Portfolio-React/static/css/main.d3fd5953.chunk.css.map",
     "static/js/2.d9fc9295.chunk.js.LICENSE.txt": "/Personal-Portfolio-React/static/js/2.d9fc9295.chunk.js.LICENSE.txt",
     "static/media/DIG_Transport-thumbnail.png": "/Personal-Portfolio-React/static/media/DIG_Transport-thumbnail.75784846.png",
     "static/media/Ecommerce-thumbnail.png": "/Personal-Portfolio-React/static/media/Ecommerce-thumbnail.de6568cd.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.e01bfa51.js",
     "static/css/2.a5f06b7f.chunk.css",
     "static/js/2.d9fc9295.chunk.js",
-    "static/css/main.2b9dd342.chunk.css",
+    "static/css/main.d3fd5953.chunk.css",
     "static/js/main.fa6d9f81.chunk.js"
   ]
 }
