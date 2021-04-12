@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "178ec94faf4746482feef7785163d529",
+    "revision": "eff3f5a1b39e90774a6d7939eefb8d0f",
     "url": "/Personal-Portfolio-React/index.html"
   },
   {
-    "revision": "3b7b71afe75167c8ce9b",
+    "revision": "af5ede9c2288c8bc58a7",
     "url": "/Personal-Portfolio-React/static/css/2.a5f06b7f.chunk.css"
   },
   {
-    "revision": "5da7f6a8f9b18c2dfc6b",
-    "url": "/Personal-Portfolio-React/static/css/main.d3fd5953.chunk.css"
+    "revision": "03b02cf10671b158e68d",
+    "url": "/Personal-Portfolio-React/static/css/main.7bbe345e.chunk.css"
   },
   {
-    "revision": "3b7b71afe75167c8ce9b",
-    "url": "/Personal-Portfolio-React/static/js/2.d9fc9295.chunk.js"
+    "revision": "af5ede9c2288c8bc58a7",
+    "url": "/Personal-Portfolio-React/static/js/2.fbf10d77.chunk.js"
   },
   {
     "revision": "64f54ce285484345cd5e3bd96b120148",
-    "url": "/Personal-Portfolio-React/static/js/2.d9fc9295.chunk.js.LICENSE.txt"
+    "url": "/Personal-Portfolio-React/static/js/2.fbf10d77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5da7f6a8f9b18c2dfc6b",
-    "url": "/Personal-Portfolio-React/static/js/main.fa6d9f81.chunk.js"
+    "revision": "03b02cf10671b158e68d",
+    "url": "/Personal-Portfolio-React/static/js/main.48151dfc.chunk.js"
   },
   {
     "revision": "f2475bd94d498294326c",
@@ -52,12 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Portfolio-React/static/media/banner.6a2708a3.jpg"
   },
   {
-    "revision": "0e445768c8f6d5fee56ce3e9a2332f76",
-    "url": "/Personal-Portfolio-React/static/media/github.0e445768.svg"
+    "revision": "58e3844cc95f0df88c69f88d769afe21",
+    "url": "/Personal-Portfolio-React/static/media/facebook.58e3844c.svg"
   },
   {
-    "revision": "534505dc16de8681e95924c34436d998",
-    "url": "/Personal-Portfolio-React/static/media/gitlab.534505dc.svg"
+    "revision": "a5bafd9fbe25f4e61f0392b6fbdb888c",
+    "url": "/Personal-Portfolio-React/static/media/github.a5bafd9f.svg"
+  },
+  {
+    "revision": "9a6bd6b4fd941c1d509ed7c0a2b859f9",
+    "url": "/Personal-Portfolio-React/static/media/gitlab.9a6bd6b4.svg"
   },
   {
     "revision": "3fb871574f537a0253752d8025b7bf31",
