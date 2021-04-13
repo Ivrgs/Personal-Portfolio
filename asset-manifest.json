@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-React/static/css/main.0f6daf61.chunk.css",
-    "main.js": "/Personal-Portfolio-React/static/js/main.48151dfc.chunk.js",
-    "main.js.map": "/Personal-Portfolio-React/static/js/main.48151dfc.chunk.js.map",
+    "main.css": "/Personal-Portfolio-React/static/css/main.5db2c2e8.chunk.css",
+    "main.js": "/Personal-Portfolio-React/static/js/main.9ddacfcf.chunk.js",
+    "main.js.map": "/Personal-Portfolio-React/static/js/main.9ddacfcf.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio-React/static/js/runtime-main.e01bfa51.js",
     "runtime-main.js.map": "/Personal-Portfolio-React/static/js/runtime-main.e01bfa51.js.map",
     "static/css/2.a5f06b7f.chunk.css": "/Personal-Portfolio-React/static/css/2.a5f06b7f.chunk.css",
     "static/js/2.fbf10d77.chunk.js": "/Personal-Portfolio-React/static/js/2.fbf10d77.chunk.js",
     "static/js/2.fbf10d77.chunk.js.map": "/Personal-Portfolio-React/static/js/2.fbf10d77.chunk.js.map",
     "index.html": "/Personal-Portfolio-React/index.html",
-    "precache-manifest.f408f2e3248f17b0c5f05bd860a6aec5.js": "/Personal-Portfolio-React/precache-manifest.f408f2e3248f17b0c5f05bd860a6aec5.js",
+    "precache-manifest.03e5efd5209474c6ea70990e270c0dfc.js": "/Personal-Portfolio-React/precache-manifest.03e5efd5209474c6ea70990e270c0dfc.js",
     "service-worker.js": "/Personal-Portfolio-React/service-worker.js",
     "static/css/2.a5f06b7f.chunk.css.map": "/Personal-Portfolio-React/static/css/2.a5f06b7f.chunk.css.map",
-    "static/css/main.0f6daf61.chunk.css.map": "/Personal-Portfolio-React/static/css/main.0f6daf61.chunk.css.map",
+    "static/css/main.5db2c2e8.chunk.css.map": "/Personal-Portfolio-React/static/css/main.5db2c2e8.chunk.css.map",
     "static/js/2.fbf10d77.chunk.js.LICENSE.txt": "/Personal-Portfolio-React/static/js/2.fbf10d77.chunk.js.LICENSE.txt",
     "static/media/DIG_Transport-thumbnail.png": "/Personal-Portfolio-React/static/media/DIG_Transport-thumbnail.75784846.png",
     "static/media/Ecommerce-thumbnail.png": "/Personal-Portfolio-React/static/media/Ecommerce-thumbnail.de6568cd.png",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.e01bfa51.js",
     "static/css/2.a5f06b7f.chunk.css",
     "static/js/2.fbf10d77.chunk.js",
-    "static/css/main.0f6daf61.chunk.css",
-    "static/js/main.48151dfc.chunk.js"
+    "static/css/main.5db2c2e8.chunk.css",
+    "static/js/main.9ddacfcf.chunk.js"
   ]
 }
