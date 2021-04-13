@@ -1,36 +1,36 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.b1ed0200.chunk.css",
-    "main.js": "/Personal-Portfolio/static/js/main.ba40c412.chunk.js",
-    "main.js.map": "/Personal-Portfolio/static/js/main.ba40c412.chunk.js.map",
+    "main.css": "/Personal-Portfolio/static/css/main.08800283.chunk.css",
+    "main.js": "/Personal-Portfolio/static/js/main.5804406e.chunk.js",
+    "main.js.map": "/Personal-Portfolio/static/js/main.5804406e.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.edf9b4a3.js",
     "runtime-main.js.map": "/Personal-Portfolio/static/js/runtime-main.edf9b4a3.js.map",
     "static/css/2.a5f06b7f.chunk.css": "/Personal-Portfolio/static/css/2.a5f06b7f.chunk.css",
     "static/js/2.43ec4ee5.chunk.js": "/Personal-Portfolio/static/js/2.43ec4ee5.chunk.js",
     "static/js/2.43ec4ee5.chunk.js.map": "/Personal-Portfolio/static/js/2.43ec4ee5.chunk.js.map",
     "index.html": "/Personal-Portfolio/index.html",
-    "precache-manifest.0c0bfd1cc3a9999257f4199447d93370.js": "/Personal-Portfolio/precache-manifest.0c0bfd1cc3a9999257f4199447d93370.js",
+    "precache-manifest.8d612a3b0ae83d5032e314bc41389dbe.js": "/Personal-Portfolio/precache-manifest.8d612a3b0ae83d5032e314bc41389dbe.js",
     "service-worker.js": "/Personal-Portfolio/service-worker.js",
     "static/css/2.a5f06b7f.chunk.css.map": "/Personal-Portfolio/static/css/2.a5f06b7f.chunk.css.map",
-    "static/css/main.b1ed0200.chunk.css.map": "/Personal-Portfolio/static/css/main.b1ed0200.chunk.css.map",
+    "static/css/main.08800283.chunk.css.map": "/Personal-Portfolio/static/css/main.08800283.chunk.css.map",
     "static/js/2.43ec4ee5.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.43ec4ee5.chunk.js.LICENSE.txt",
-    "static/media/DIG_Transport-thumbnail.png": "/Personal-Portfolio/static/media/DIG_Transport-thumbnail.75784846.png",
-    "static/media/Ecommerce-thumbnail.png": "/Personal-Portfolio/static/media/Ecommerce-thumbnail.de6568cd.png",
-    "static/media/Mobile-thumbnail.png": "/Personal-Portfolio/static/media/Mobile-thumbnail.cb79b418.png",
-    "static/media/MyIcon.png": "/Personal-Portfolio/static/media/MyIcon.276df84c.png",
+    "static/media/DIG_Transport-thumbnail.png": "/Personal-Portfolio/static/media/DIG_Transport-thumbnail.b05d1aae.png",
+    "static/media/Ecommerce-thumbnail.png": "/Personal-Portfolio/static/media/Ecommerce-thumbnail.cf0065df.png",
+    "static/media/Mobile-thumbnail.png": "/Personal-Portfolio/static/media/Mobile-thumbnail.aaef9027.png",
+    "static/media/MyIcon.png": "/Personal-Portfolio/static/media/MyIcon.f70968f3.png",
     "static/media/Responsive Device.svg": "/Personal-Portfolio/static/media/Responsive Device.fcd2a443.svg",
     "static/media/Main.css": "/Personal-Portfolio/static/media/storyBackground-01.54496bfe.svg",
     "static/media/facebook.svg": "/Personal-Portfolio/static/media/facebook.58e3844c.svg",
     "static/media/github.svg": "/Personal-Portfolio/static/media/github.a5bafd9f.svg",
     "static/media/gitlab.svg": "/Personal-Portfolio/static/media/gitlab.9a6bd6b4.svg",
-    "static/media/me.jpg": "/Personal-Portfolio/static/media/me.3fb87157.jpg",
-    "static/media/responsive-I.png": "/Personal-Portfolio/static/media/responsive-I.0bb9da43.png"
+    "static/media/me.jpg": "/Personal-Portfolio/static/media/me.c2ed748d.jpg",
+    "static/media/responsive-I.png": "/Personal-Portfolio/static/media/responsive-I.f73597b5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.edf9b4a3.js",
     "static/css/2.a5f06b7f.chunk.css",
     "static/js/2.43ec4ee5.chunk.js",
-    "static/css/main.b1ed0200.chunk.css",
-    "static/js/main.ba40c412.chunk.js"
+    "static/css/main.08800283.chunk.css",
+    "static/js/main.5804406e.chunk.js"
   ]
 }
