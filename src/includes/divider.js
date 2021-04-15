@@ -4,12 +4,18 @@ import '../Main.css';
 function App() {
   return (
       <div>
-          <div  class="divider" data-height="400" data-unit="px" >
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 88"><defs></defs><title>Top32</title><polygon class="aa" points="1920 88 1920 0 960 88 1920 88"/><polygon class="bb" points="0 88 960 88 0 32 0 88"/><polygon class="cc" points="0 88 0 14 961 88 0 88"/><polygon class="aa" points="0 88 0 0 960 88 0 88"/><polygon class="bb" points="1920 88 960 88 1920 32 1920 88"/><polygon class="cc" points="1920 88 1920 14 959 88 1920 88"/><polygon class="dd" points="1920 0 2.426 0 959 88 1920 0"/></svg>
-	</div>
-	<div class="uncode-divider-wrap uncode-divider-wrap-bottom z_index_3 divider" data-height="400" data-unit="px" id="breakstory">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 88"><defs></defs><title>Asset 5</title><polygon class="aaa" points="0 0 0 88 960 0 0 0"/><polygon class="bbb" points="1920 0 960 0 1920 56 1920 0"/><polygon class="ccc" points="1920 0 1920 74 959 0 1920 0"/><polygon class="aaa" points="1920 0 1920 88 960 0 1920 0"/><polygon class="bbb" points="0 0 960 0 0 56 0 0"/><polygon class="ccc" points="0 0 0 74 961 0 0 0"/><polygon class="ddd" points="0 88 1920 88 959 0 0 88"/></svg>
-	</div>
+          <div  class="divider" data-height="400" data-unit="px" id="breakstory">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 156">
+              <defs></defs>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_3" data-name="Layer 3">
+                    <polygon class="cls-1" points="0 0 921.6 74.96 1920 0 1920 156 0 156 0 0"/>
+                    <polygon class="cls-2" points="0 13 921.6 74.98 1920 13 1920 142 921.6 77.5 0 142 0 13"/>
+                    <polygon class="cls-3" points="0 26 921.6 75.49 1920 26 1920 129 921.6 77.5 0 129 0 26"/>
+                  </g>
+                </g>
+              </svg>
+	        </div>
       </div>
     );
 }

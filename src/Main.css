@@ -24,7 +24,9 @@ p {
 .row {
   margin: auto 0px;
 }
-
+.row .social{
+  flex-wrap: unset;
+}
  /* Navigator */
  .navigator {
   z-index: 1000;
@@ -69,7 +71,7 @@ p {
 }
 
 .first img {
-  width: 50%;
+  width: 75%;
   border-radius: 15px;
   box-shadow: 0px 0px 47px -18px rgba(0, 0, 0, 0.75);
 }
@@ -114,9 +116,7 @@ p {
   
   padding: 1vw 5vw;
 }
-#sectionproject h1{
-color:white;
-}
+
 #sectionproject .row, #sectionproject img  {
   width: 100%;
   text-align: center;
@@ -132,18 +132,19 @@ color:white;
   text-decoration: none !important; 
 }
 .myProject {
-
   z-index: 2;
   position: relative;
 }
 .divider{
+  background: linear-gradient(180deg, rgba(180,188,199,1) 20%, rgba(255,255,255,1) 100%);
   width:100%; 
   fill:#020722;
-  line-height: 0px;
-}
-.aa{opacity:0.1;}.bb{opacity:0.4;}.cc{opacity:0.2;}.dd{fill:#b5bdc8;}
-.aaa{opacity:0.1;}.bbb{opacity:0.4;}.ccc{opacity:0.2;}.ddd{fill:#fff;}
 
+}
+.cls-1{fill:#fff;}.cls-2,.cls-3{fill:#707281;}.cls-2{opacity:0.4;}
+#sectionproject h1{
+color:white;
+}
 /* Section My Story */
 #sectionStory{
   background:url("./assets/storyBackground-01.svg");
@@ -263,11 +264,12 @@ blockquote cite:before {
 .footerlinks,  .privacy{
   padding: 0px 5px;
 }
-@media only screen and (max-width:1366px){
-  .myName h1{
-    font-size:52px;
-  }
 
+/* Desktop */
+@media only screen and (max-width:1366px){
+  .myName h1, h1{
+    font-size:50px;         
+  }
 }
 @media only screen and (max-width: 768px){
   .h1, h1{
@@ -278,7 +280,7 @@ blockquote cite:before {
    
   }
   .first{
-    padding: 15vw 3vw 0vw 3vw;
+    padding: 20vw 3vw 0vw 3vw;
   }
   .first img{
     width: 100%;
@@ -298,6 +300,7 @@ blockquote cite:before {
     font-size: 1.1em;
   }
 }
+/* IPad Pro 12.9*/
 @media only screen and (max-width:1024px){
   .myinfo h1, h1{
     font-size: 38px;
@@ -315,6 +318,8 @@ blockquote cite:before {
     padding:0vw 10vw;
   }
 }
+
+/* IPad Pro 10.5*/
 @media only screen and (max-width:834px){
   .myinfo h1, h1{
     font-size: 30px;
@@ -323,7 +328,16 @@ blockquote cite:before {
     font-size: 1.1em;
   }
 }
-@media only screen and (max-width: 414px){
+@media only screen and (max-width:1112px){
+  .myinfo h1, h1{
+    font-size: 30px;
+  }
+  .footerlayout p{
+    font-size: 1.1em;
+  }
+}
+/* Mobile*/
+@media only screen and (max-width: 740px){
   .p p{
     text-align: center;
   }

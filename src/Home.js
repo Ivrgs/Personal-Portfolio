@@ -1,6 +1,7 @@
 import React from 'react';
 import gitlab from './assets/gitlab.svg';
 import github from './assets/github.svg';
+import facebook from './assets/facebook.svg';
 import me from './assets/me.jpg';
 import './Main.css';
 
@@ -13,14 +14,16 @@ function App() {
           <p>As an BS Information Technology Graduate, I want to become a Web developer to develop their own websites for the business or for their company and become more user friendly.</p>
 					<p>I finding a job that can enchance my programming skills and grow as IT professional also I can to share my knowledge and skills that i learned in past, can work independently to your company. Thank you.</p>
           <div className="row social">
-            <div className="col-md-3 social-img">
+            <div className="col-md-4 social-img">
 						  <a href="https://gitlab.com/Ivrgs" target="_blank" rel="noopener noreferrer"><img src={gitlab} alt="" /></a>
 						</div>
-            <div className="col-md-3 social-img">
+            <div className="col-md-4 social-img">
 							<a href="https://github.com/Ivrgs" target="_blank" rel="noopener noreferrer"><img src={github} alt="" /></a>
             </div>
-            <div className="col-md-3 social-img"></div>
-            <div className="col-md-3 social-img"></div>
+            <div className="col-md-4 social-img">
+            <a href="https://www.facebook.com/IvargasRodel/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" /></a>
+            </div>
+
           </div>
         </div>
         <div className="col-md-6 myinfo-img">
