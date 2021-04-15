@@ -10,12 +10,12 @@ function App() {
       <div>
    <div className="row footer-notes ">
                   <div className="col-md-4 footerLogo footerlayout">
-                      <img src={favicon} />
+                      <img src={favicon} alt=""/>
                   </div>
                   <div className="col-md-4 footerlayout">
                       <h2>About me</h2>
-                      <p><a href="mailto:ivrgsrodel@gmail.com"><FontAwesomeIcon icon={faEnvelope} /> ivrgsrodel@gmail.com</a></p>
-                      <p><a href="https://bit.ly/3ilafey"><FontAwesomeIcon icon={faMapMarker} /> Quezon City, Philippines</a></p>
+                      <p><a href="mailto:ivrgsrodel@gmail.com"><FontAwesomeIcon icon={faEnvelope} alt=""/> ivrgsrodel@gmail.com</a></p>
+                      <p><a href="https://bit.ly/3ilafey"><FontAwesomeIcon icon={faMapMarker} alt=""/> Quezon City, Philippines</a></p>
   
                   </div>
                   <div className="col-md-4 footerlayout"><h2>More Links</h2>
