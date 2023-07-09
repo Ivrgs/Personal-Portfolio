@@ -17,10 +17,10 @@ function App() {
           <a className="nav-link" href="/#">Home <span className="sr-only" alt="">(current)</span></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#breakproject">Projects</a>
+          <a className="nav-link" href="#sectionproject">Portfolio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#breakstory">Story</a>
+          <a className="nav-link" href="#sectionStory">Story</a>
         </li>
       </ul>
     </div>

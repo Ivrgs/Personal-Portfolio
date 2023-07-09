@@ -1,32 +1,39 @@
 import React from 'react';
-import gitlab from './assets/gitlab.svg';
-import github from './assets/github.svg';
-import facebook from './assets/facebook.svg';
-import me from './assets/me.jpg';
+// import gitlab from './assets/gitlab.svg';
+
+// import facebook from './assets/facebook.svg';
+import me from './assets/me.png';
 import './Main.css';
+
+import codeIgniter from './assets/skills/codeigniter.png';
+import Laravel from './assets/skills/laravel.svg';
+import Wordpress from './assets/skills/wordpress.png';
+import ReactJS from './assets/skills/react.svg';
 
 function App() {
   return (
     <div>
       <div className="row first">
-        <div className="col-md-6 myName">
+        <div className="col-md-8 myName">
           <h1>Rodel Ivan C. Vargas</h1>
           <p>As an BS Information Technology Graduate, I want to become a Web developer to develop their own websites for the business or for their company and become more user friendly.</p>
-					<p>I finding a job that can enchance my programming skills and grow as IT professional also I can to share my knowledge and skills that i learned in past, can work independently to your company. Thank you.</p>
-          <div className="row social">
-            <div className="col-md-4 social-img">
-						  <a href="https://gitlab.com/Ivrgs" target="_blank" rel="noopener noreferrer"><img src={gitlab} alt="" /></a>
-						</div>
-            <div className="col-md-4 social-img">
-							<a href="https://github.com/Ivrgs" target="_blank" rel="noopener noreferrer"><img src={github} alt="" /></a>
+					<p>I finding a job that can enchance my skills and grow as Web Developer also I'm able to share my knowledge and skills that i learned in my experiences. I can work independently, Thank you.</p>
+          <div className="row skills">
+            <div className="col-md-3">
+              <img src={codeIgniter} alt=""/>
             </div>
-            <div className="col-md-4 social-img">
-            <a href="https://www.facebook.com/IvargasRodel/" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" /></a>
+            <div className="col-md-3">
+              <img src={Laravel} alt=""/>
             </div>
-
+            <div className="col-md-3">
+              <img src={Wordpress} alt=""/>
+            </div>
+            <div className="col-md-3">
+              <img src={ReactJS} alt=""/>
+            </div>
           </div>
         </div>
-        <div className="col-md-6 myinfo-img">
+        <div className="col-md-4 myinfo-img">
 					<img src={me} alt=""/>
 				</div>
       </div>

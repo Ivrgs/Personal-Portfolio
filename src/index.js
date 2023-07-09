@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './assets/slick/slick/slick.js';
 import 'bootstrap/dist/css/bootstrap.css';
+import jQuery from 'jquery';
+
 import './index.css';
 import Navigator from './includes/Navigator';
 import Home from './Home';
@@ -51,7 +54,22 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('sticky-footer')
 );
+
+
+// jQuery(".portfolio-slider").slick({
+//   infinite: true,
+//   autoplay: true,
+//   autoplaySpeed: 2500,
+//   slidesToShow: 2,
+//   slidesToScroll: 1,
+//   dots: false,
+//   arrows: false
+// });
+
+
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
