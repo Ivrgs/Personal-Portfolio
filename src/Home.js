@@ -16,8 +16,8 @@ function App() {
       <div className="row first">
         <div className="col-md-8 myName">
           <h1>Rodel Ivan C. Vargas</h1>
-          <p>As an BS Information Technology Graduate, I want to become a Web developer to develop their own websites for the business or for their company and become more user friendly.</p>
-					<p>I finding a job that can enchance my skills and grow as Web Developer also I'm able to share my knowledge and skills that i learned in my experiences. I can work independently, Thank you.</p>
+          <p>As an BS Information Technology Graduate, My passion is deveping a website wherein the clients needing a website for their businesses and become more user friendly.</p>
+					<p>I finding a job that can enchance my skills and grow as Web Developer, I can able to share my knowledge to my team thank you.</p>
           <div className="row skills">
             <div className="col-md-2">
               <img src={codeIgniter} alt=""/>

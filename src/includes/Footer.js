@@ -13,15 +13,15 @@ function App() {
       <div>
    <div className="row footer-notes ">
                   <div className="col-md-4 footerLogo footerlayout">
+                  <a href="https://github.com/Ivrgs" target="_blank" rel="noopener noreferrer">
                       <img src={favicon} alt=""/>
+                    </a>
                   </div>
                   <div className="col-md-4 footerlayout">
                     <h4>About me</h4>
                     <p><a href="mailto:ivargasrodel@gmail.com"><FontAwesomeIcon icon={faEnvelope} alt=""/> ivargasrodel@gmail.com</a></p>
                     <p><a href={gmaps}><FontAwesomeIcon icon={faMapMarker} alt=""/> Philippines</a></p>
-                    <div className="col-md-4 social-img">
-                        <a href="https://github.com/Ivrgs" target="_blank" rel="noopener noreferrer"><img src={github} alt="" /></a>
-                    </div>
+                   
                      
                   </div>
                   <div className="col-md-4 footerlayout"><h4>More Links</h4>

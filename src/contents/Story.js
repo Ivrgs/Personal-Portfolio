@@ -5,7 +5,7 @@ import '../Main.css';
 // import DIG from '../assets/DIG_Transport-thumbnail.png';
 import Responsive1 from '../assets/responsive-I.png';
 
-let url="http://localhost/igamelibrary/";
+let url="http://localhost/ivrgs_invtory/";
 
 function App() {
   return (
