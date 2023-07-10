@@ -9,7 +9,7 @@ a {
 }
 a:hover {
     color:  var(--color-white);
-    opacity: 75%;;
+    opacity: 75%;
 }
 .h1,
 h1 {
@@ -202,9 +202,9 @@ section > div{
 .mystory h1 {
     padding-top: 1vw;
 }
-#sectionStory a:hover{
+/* #sectionStory a:hover{
     opacity: 100%;
-}
+} */
 #sectionStory img {
     width: 100%;
     text-align: center;
