@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/slick/slick/slick.js';
+// import './assets/slick/slick/slick.js';
 import 'bootstrap/dist/css/bootstrap.css';
-import jQuery from 'jquery';
+// import jQuery from 'jquery';
 
 import './index.css';
 import Navigator from './includes/Navigator';
 import Home from './Home';
+import Divider_first from './includes/divider_first';
 import Project from './contents/Projects';
 import Divider from './includes/divider';
 import Story from './contents/Story';
@@ -26,7 +27,12 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('myinfo')
 );
-
+ReactDOM.render(
+  <React.StrictMode>
+    <Divider_first />
+  </React.StrictMode>,
+  document.getElementById('divider')
+);
 ReactDOM.render(
   <React.StrictMode>
     <Project />

@@ -72,7 +72,35 @@ p {
 }
 .first {
     width: 100%;
-    padding: 15vw 10vw 10vw 10vw;
+    padding: 15vw 5rem 10vw 5rem;
+    max-width: 1920px;
+    margin: auto;
+}
+.myinfo{
+    max-width: unset;
+}
+section > div{
+    max-width: 1920px;
+    margin: auto;
+    padding: 0vw 5rem 0vw 5rem;
+}
+@media screen and (max-width: 1200px){
+    .first {
+        padding: 15vw 2rem 10vw;
+    }
+    section > div{
+        padding: 0vw 2rem;
+    }
+}
+@media screen and (max-width: 600px){
+    section > div{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:414px){
+    .myName .skills .col-md-2{
+        flex: 0 0 50% !important;
+    }
 }
 .first img {
     width: 66%;
@@ -307,9 +335,11 @@ blockquote cite:before {
     .first img {
         width: 100%;
     }
-    .myName .skills .col-md-3{
-        width: 16.66%;
-        padding: 10px;
+    .first .myName{
+        max-width: 100%;
+    }
+    .myName .skills .col-md-2{
+         width: 16.66%; 
     }
     .myinfo h1 {
         font-size: 33px;
@@ -327,8 +357,14 @@ blockquote cite:before {
     }
 }
 @media only screen and (max-width: 600px){
-    .myName .skills .col-md-3{
-        width: 25%;
+    .myName .skills .col-md-2{
+        /* width: 25%; */
+    }
+}
+@media only screen and (max-width: 1600px){
+    .myName .skills .col-md-2{
+        flex: 0 0 25%;
+        max-width: unset;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -383,6 +419,7 @@ blockquote cite:before {
 
     .social-img {
         width: 50%;
+        margin: auto;
     }
     .myinfo-img {
         margin-bottom: 10px;
@@ -426,8 +463,9 @@ blockquote cite:before {
     }
 }
 @media only screen and (max-width: 414px) {
-    .myName .skills .col-md-3{
-        width: 33.33%;
+    .myName .skills .col-md-2{
+        width: 50%;
+        padding: 15px;
     }
     .portfolio-slider .logo-container{
         width:100%;
