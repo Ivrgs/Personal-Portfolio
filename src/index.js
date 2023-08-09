@@ -1,18 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './assets/slick/slick/slick.js';
-import 'bootstrap/dist/css/bootstrap.css';
-// import jQuery from 'jquery';
+import * as serviceWorker from './serviceWorker';
 
-import './index.css';
+// import './assets/slick/slick/slick.js';
+// import jQuery from 'jquery';
+import './assets/scss/global.scss';
 import Navigator from './includes/Navigator';
 import Home from './Home';
-import Divider_first from './includes/divider_first';
-import Project from './contents/Projects';
 import Divider from './includes/divider';
-import Story from './contents/Story';
 import Footer from './includes/Footer';
-import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,32 +24,13 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('myinfo')
 );
-ReactDOM.render(
-  <React.StrictMode>
-    <Divider_first />
-  </React.StrictMode>,
-  document.getElementById('divider')
-);
-ReactDOM.render(
-  <React.StrictMode>
-    <Project />
-  </React.StrictMode>,
-  document.getElementById('sectionproject')
-);
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Divider />
-  </React.StrictMode>,
-  document.getElementById('divider')
-);
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Story />
-  </React.StrictMode>,
-  document.getElementById('sectionStory')
-);
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Divider />
+//   </React.StrictMode>,
+//   document.getElementById('divider')
+// );
 
 ReactDOM.render(
   <React.StrictMode>
@@ -71,7 +49,6 @@ ReactDOM.render(
 //   dots: false,
 //   arrows: false
 // });
-
 
 
 // If you want your app to work offline and load faster, you can change

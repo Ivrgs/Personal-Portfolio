@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
+
 import Privacy from './includes/privacy-policy';
 import * as serviceWorker from './serviceWorker';
 

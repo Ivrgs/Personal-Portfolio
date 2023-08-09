@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Main.css';
+// import '../Main.css';
 // import Responsive1 from '../assets/responsive-I.png';
 // import Responsive2 from '../assets/Responsive Device.svg';
 import aalaw from '../assets/portfolio/aa-law.png';

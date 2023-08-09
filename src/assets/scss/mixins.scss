@@ -1,0 +1,11 @@
+@mixin background($variable){
+    background-image: url($variable);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@mixin rounded_img{
+    width: $colm_10;
+    border-radius: 15px;
+    box-shadow: 0 0 47px -18px rgba(0, 0, 0, 0.75);
+}

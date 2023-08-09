@@ -1,0 +1,21 @@
+#sticky-footer {
+    bottom: 0;
+    flex-shrink: none;
+    position: static;
+    background: #707281;
+    padding: 2vw;
+    
+    .footer-notes {
+        margin: 0;
+        color: $color_white;
+        text-align: center;
+        .subtitle{
+            font-size: 14px;
+        }
+        .copyrights{
+            font-size: 20px;
+        }
+    }
+}
+
+

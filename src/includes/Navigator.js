@@ -1,20 +1,21 @@
 import React from 'react';
-import '../Main.css';
+
+
 import favicon from '../assets/MyIcon.png';
 
 function App() {
     return (
-  <nav className="navbar navbar-expand-lg navbar-dark bg-dark navigator fixed-top">
+  <nav className="navigator fixed_top">
   
-  <div className="navLogoDiv navLogo navDiv">
+  <div className="nav_logo_container">
     <a className="" href="/#">
     <img src={favicon} alt=""/>  </a>
   </div>
   
-    <div className="collapse navbar-collapse" id="navbarNav">
+    <div className="nav_menu_container" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item active">
-          <a className="nav-link" href="/#">Home <span className="sr-only" alt="">(current)</span></a>
+          <a className="nav-link" href="/#">Home <span className="sr-only" alt=""></span></a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#sectionproject">Portfolio</a>
