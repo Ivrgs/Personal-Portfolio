@@ -2,6 +2,9 @@
 @import "./mixins";
 @import "./navigator.scss";
 
+html{
+    scroll-behavior: smooth;
+}
 
 body,
 html {
@@ -79,11 +82,60 @@ p{
     width: 100%;
 }
 
+@media screen and (max-width: $tablet_size){
+    .tablet_1{
+        width: 10%;
+    }
+    .tablet_2{
+        width: 20%;
+    }
+    .tablet_25{
+        width: 25%;
+    }
+    .tablet_33{
+        width: 33%;
+    }
+    .tablet_5{
+        width: 50%;
+    }
+    .tablet_10{
+        width: 100%;
+    }
+}
+
 .fixed_top{
     position: fixed;
     @extend .colm_10;
 }
 
+.divider{
+    background: linear-gradient(180deg, #b4bcc7 15%, #fff 100%);
+    width: 100%;
+}
+.a5c3ae81-6292-4884-a9da-5cd2e4fd1996,
+.b533261b-ff14-423f-91bb-298c31a4c3f7,
+.b57183d7-6f99-42b1-8e28-48d4adad0dc0 {
+    fill: #6f7080;
+}
+.b57183d7-6f99-42b1-8e28-48d4adad0dc0 {
+    opacity: 0.5;
+}
+.a5c3ae81-6292-4884-a9da-5cd2e4fd1996 {
+    opacity: 0.4;
+}
+
+#footer-divider{
+    margin-bottom: -20px;
+    z-index: -33;
+    display: block;
+    position: relative;
+}
+#footer-divider svg{
+    background: white;
+    
+}
+
+.cls-1{opacity:0.2;}.cls-2{opacity:1; fill: #707281}
 
 @import "./myinfo_section.scss";
 @import "./myexperience_section.scss";

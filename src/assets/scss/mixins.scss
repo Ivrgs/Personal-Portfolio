@@ -1,11 +1,50 @@
-@mixin background($variable){
-    background-image: url($variable);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+@mixin background($image, $color){
+    background: {
+        image: $image;
+        color: $color;
+        repeat: no-repeat;
+        position: center;
+        size: cover;
+        blend-mode: overlay;
+    }
 }
 @mixin rounded_img{
     width: $colm_10;
     border-radius: 15px;
     box-shadow: 0 0 47px -18px rgba(0, 0, 0, 0.75);
+}
+@mixin rounded_img_hover{
+    width: $colm_10;
+    border-radius: 15px;
+    box-shadow: 0 0 47px -18px rgba(0, 0, 0, 1.0);
+}
+
+@mixin make_button{
+    @include rounded_img;
+    font-size: 24px;
+    padding: 20px;
+    margin: 10px 0px;
+    text-align: center;
+    width: auto;
+    cursor:pointer;
+}
+
+@mixin primary_button_li{
+    @include make_button;
+    background-color: $color_white;
+    color: $primary_color;
+}
+
+@mixin primary_button_li_active{
+    @include make_button;
+    background-color: $primary_color;
+    color: $color_white;
+}
+@mixin not_selectable{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }

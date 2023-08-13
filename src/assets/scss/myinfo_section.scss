@@ -1,19 +1,17 @@
 #myinfo{
-    @include background("../banner.jpg");
+    @include background(url('../banner.jpg'), '');
+    transition:all 0.7s ease;
 
     .row{
         display:flex;
-        width: 90%;
+        width: 80%;
         margin:auto;
+        align-items: center;
+        padding: 15vw 0px 6vw;
     }
 
-    .my_info {
-        margin: auto;
-        z-index: 0;
-        max-width: unset;
-        padding: 15vw 0px;
-        
-
+    .my_info {    
+         
         h1 {
             font-size: 62px;
             color: #fff;

@@ -1,0 +1,72 @@
+#section_stories{
+    @include background(url('../storyBackground-01.svg'), rgba(255,255,255,0.5));
+    transition:all 0.7s ease;  
+    padding-bottom: 5vw;
+
+    .row{
+        width: 80%;
+        margin: auto;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 42px;
+    }
+    .container{
+        display: flex;
+    
+        ul {
+            padding:0px;
+            li{
+                list-style: none;
+                @include primary_button_li;
+                
+                &:hover{
+                    background-color: $primary_color;
+                    color: $color_white;
+                }
+            }
+            li.active{
+                list-style: none;
+                @include primary_button_li_active;
+                
+                &:hover{
+                    background-color: $color_white;
+                    color: $primary_color;
+                }
+            }
+        }
+        
+        .column_content{
+            
+            .experiences_slider, .works_slider{
+                padding: 20px;
+
+                .slick-track{
+                    display: flex;
+                    gap: 40px;
+                }
+            }
+            .experiences_slider.hidden, .works_slider.hidden{
+                display: none;
+            }
+            img{
+                @include rounded_img;
+                &:hover{
+                    @include rounded_img_hover;
+                }
+                
+            }
+            span{
+                color: $color_black;
+                text-align: center;
+                display: block;
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+        .column_content.hidden{
+            display:none;
+        }
+    }  
+}

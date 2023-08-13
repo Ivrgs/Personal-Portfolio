@@ -1,0 +1,25 @@
+#section_expertise {
+    @include background(linear-gradient(180deg, #111c30 0, #828c95 64%, #b5bdc8 100%), '');
+    padding: 5vw;
+    transition:all 0.7s ease;  
+
+    h2{
+        text-align: center;
+        font-size: 42px;
+        color: $color_white;
+    }
+    .skills_slider .slick-track{
+        display: flex;
+        gap: 40px;
+    }
+    .skills_slider.hidden{
+        display: none;
+    }
+
+        img{
+            @include rounded_img;
+            @include not_selectable;
+            background-color: $color_white;
+            padding:10px;
+        }
+    }
