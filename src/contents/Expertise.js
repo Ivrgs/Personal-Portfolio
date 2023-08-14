@@ -10,6 +10,7 @@ import codeIgniter from '../assets/skills/codeigniter.png';
 import Laravel from '../assets/skills/laravel.png';
 import ReactJS from '../assets/skills/react.png';
 import WordPress from '../assets/skills/wordpress.png';
+import Magento from '../assets/skills/magento.png';
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
 			</div>
 			<div  className="slider_container">
 				<img src={WordPress} alt=""/>
+			</div>
+			<div  className="slider_container">
+				<img src={Magento} alt=""/>
 			</div>
 		</div>
 	</div>
