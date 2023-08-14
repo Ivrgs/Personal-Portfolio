@@ -19,7 +19,7 @@ function App() {
 			 	{/* <hr></hr> */}
 				 <h2>Portfolio</h2>
             <div className="container">
-				<div className='column_content colm_8 hidden'>
+				<div className='column_content colm_8 mobile_10 hidden'>
 					<div className='experiences_slider experiences'>
 						<div  className="slider_container">
 						<a href={vector_url} rel='nofollow' target='_blank'><img src={Vector} alt=""/></a><span>Vector Outsourcing Solutions Phils. Inc</span>
@@ -40,7 +40,7 @@ function App() {
 						</div>
 					</div>
 				</div>
-				<div className='column_nav colm_2'>
+				<div className='column_nav colm_2 tablet_35 mobile_10'>
 					<ul>
 						<li className='all_stories_button active'>All</li>
 						<li className='experiences_button'>Experiences</li>

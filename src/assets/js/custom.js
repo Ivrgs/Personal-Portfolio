@@ -11,8 +11,34 @@ jQuery(function(){
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 6,
-    slidesToScroll: 5,
+    slidesToScroll: 6,
     rows: 0,
+    responsive: [
+      {
+        breakpoint: 901,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          
+        }
+      },
+      {
+        breakpoint: 601,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          centerPadding:"0px"
+        }
+      },
+      {
+        breakpoint: 415,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          centerPadding:"0px"
+        }
+      }
+    ]
   });
   
   jQuery(".experiences_slider").slick({
@@ -24,7 +50,23 @@ jQuery(function(){
     slidesToShow: 3,
     slidesToScroll: 2,
     rows: 0,
-    centerMode: false
+    centerMode: false,
+    responsive: [
+      {
+        breakpoint: 901,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 601,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
   
   jQuery(".works_slider").slick({
@@ -36,7 +78,25 @@ jQuery(function(){
     slidesToShow: 3,
     slidesToScroll: 2,
     rows: 0,
-    centerMode: false
+    centerMode: false,
+    responsive: [
+      {
+        breakpoint: 901,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          
+        }
+      },
+      {
+        breakpoint: 601,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding:"0px"
+        }
+      }
+    ]
   });
   
   jQuery(".all_stories_button").on('click', function(){

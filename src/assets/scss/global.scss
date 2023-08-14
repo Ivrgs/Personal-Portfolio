@@ -95,10 +95,40 @@ p{
     .tablet_33{
         width: 33%;
     }
+    .tablet_35{
+        width: 35%;
+    }
     .tablet_5{
         width: 50%;
     }
+    .tablet_7{
+        width: 70%;
+    }
     .tablet_10{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: $mobile_size){
+    .mobile_1{
+        width: 10%;
+    }
+    .mobile_2{
+        width: 20%;
+    }
+    .mobile_25{
+        width: 25%;
+    }
+    .mobile_3{
+        width: 30%;
+    }
+    .mobile_33{
+        width: 33%;
+    }
+    .mobile_5{
+        width: 50%;
+    }
+    .mobile_10{
         width: 100%;
     }
 }

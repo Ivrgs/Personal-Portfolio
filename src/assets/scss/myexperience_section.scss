@@ -20,19 +20,24 @@
             li{
                 list-style: none;
                 @include primary_button_li;
-                
+
                 &:hover{
                     background-color: $primary_color;
                     color: $color_white;
+                    outline: none !important;
                 }
+                
             }
             li.active{
                 list-style: none;
                 @include primary_button_li_active;
+
+                
                 
                 &:hover{
                     background-color: $color_white;
                     color: $primary_color;
+                    outline: none !important;
                 }
             }
         }
@@ -41,20 +46,37 @@
             
             .experiences_slider, .works_slider{
                 padding: 20px;
+                overflow: hidden;
 
-                .slick-track{
-                    display: flex;
-                    gap: 40px;
+                outline: none !important;
+
+                .slick-list{
+                    outline: none;
+                    
+                    .slick-track{
+                        display: flex;
+                        gap: 40px;
+                       
+    
+                        
+                    }
                 }
+                &:focus, a:focus{
+                    outline: none !important;
+                }
+                
             }
             .experiences_slider.hidden, .works_slider.hidden{
                 display: none;
             }
             img{
                 @include rounded_img;
+                box-shadow: unset;
                 &:hover{
                     @include rounded_img_hover;
+                   
                 }
+                
                 
             }
             span{
@@ -69,4 +91,21 @@
             display:none;
         }
     }  
+}
+
+@media screen and (max-width: $mobile_size){
+    #section_stories{
+        .container{
+            flex-direction: column-reverse;
+            .experiences_slider, .works_slider{
+        
+                .slider_container{
+                    padding: 20px;
+    
+                    
+                }
+            }
+            
+        }
+    }
 }

@@ -8,10 +8,15 @@
         font-size: 42px;
         color: $color_white;
     }
-    .skills_slider .slick-track{
-        display: flex;
-        gap: 40px;
-    }
+    .skills_slider{
+        &:focus, a:focus{
+            outline: none !important;
+        }
+        .slick-track{
+            display: flex;
+            gap: 40px;
+        }
+    } 
     .skills_slider.hidden{
         display: none;
     }

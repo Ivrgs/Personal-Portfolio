@@ -50,3 +50,13 @@
        }
     }
 }
+
+@media screen and (max-width: $mobile_size) {
+    #myinfo .row{
+        flex-direction: column-reverse;
+        .my_info {
+            padding-top: 20px;
+        }
+    }
+}
+

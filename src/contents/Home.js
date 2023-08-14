@@ -10,23 +10,23 @@ let github_link = "https://github.com/Ivrgs";
 function App() {
   return (
       <div className="row">
-        <div className="colm_75 my_info">
+        <div className="colm_75 mobile_10 my_info">
           <p>Hi, I'm Your Web Developer</p>
           <h1>Rodel Ivan Vargas</h1>
           <p>As an BS Information Technology Graduate, My passion is deveping a website wherein the clients needing a website for their businesses and become more user friendly.</p>
 					<p>I finding a job that can enchance my skills and grow as Web Developer, I can able to share my knowledge to my team thank you.</p>
 
             <div className="socials">
-              <div className="colm_1">
+              <div className="colm_1 mobile_2">
                 <a href={email_link} rel='nofollow' target='_blank'><img src={Gmail} alt=""/></a>
               </div>
-              <div className="colm_1">
+              <div className="colm_1 mobile_2">
                 <a href={github_link} rel='nofollow' target='_blank'><img src={GitHub} alt=""/></a>
               </div>
             </div>
         </div>
 
-        <div className="colm_25 myinfo_img">
+        <div className="colm_25 mobile_10 myinfo_img">
           <img src={me} alt=""/>
         </div>
       </div>
