@@ -33,10 +33,10 @@ function App() {
 					</div>
 					<div className='works_slider works'>
 						<div className="slider_container">
-						<a href={codeigniter_url} rel='nofollow' target='_blank'><img src={gameCommerce} alt=""/></a><span>gameCommerce</span>
+						<a href={laravel_url} rel='nofollow' target='_blank'><img src={gameCommerce} alt=""/></a><span>gameCommerce</span>
 						</div>
 						<div  className="slider_container">
-						<a href={laravel_url} rel='nofollow' target='_blank'><img src={gameCommerceInventory} alt=""/></a><span>gameCommerce Inventory</span>
+						<a href={codeigniter_url} rel='nofollow' target='_blank'><img src={gameCommerceInventory} alt=""/></a><span>gameCommerce Inventory</span>
 						</div>
 					</div>
 				</div>
