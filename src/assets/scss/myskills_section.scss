@@ -9,12 +9,15 @@
         color: $color_white;
     }
     .skills_slider{
+        overflow: hidden;
+
         &:focus, a:focus{
             outline: none !important;
         }
         .slick-track{
             display: flex;
             gap: 40px;
+            padding: 20px 0px;
         }
     } 
     .skills_slider.hidden{

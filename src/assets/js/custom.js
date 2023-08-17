@@ -35,7 +35,8 @@ jQuery(function(){
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          centerPadding:"0px"
+          centerPadding:"0px",
+          centerMode: false
         }
       }
     ]
