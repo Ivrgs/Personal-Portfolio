@@ -11,8 +11,8 @@ jQuery(function(){
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 6,
-    slidesToScroll: 6,
-    rows: 0,
+    slidesToScroll: 4,
+    centerMode: true,
     responsive: [
       {
         breakpoint: 901,
