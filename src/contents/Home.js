@@ -13,8 +13,8 @@ function App() {
         <div className="colm_75 mobile_10 my_info">
           <p>Hi, I'm Your Web Developer</p>
           <h1>Rodel Ivan Vargas</h1>
-          <p>As an BS Information Technology Graduate, My passion is deveping a website wherein the clients needing a website for their businesses and become more user friendly.</p>
-					<p>I finding a job that can enchance my skills and grow as Web Developer, I can able to share my knowledge to my team thank you.</p>
+          <p>As an BS Information Technology Graduate, I'm very assionate about developing a website on any web frameworks for the clients that are needing an efficient kind of work for their businesses.</p>
+					<p>Now I'm finding a company that can enchance, share my skills and grow more as Web Developer, also I can able to work independently with minimal supervision thank you.</p>
 
             <div className="socials">
               <div className="colm_1 mobile_2">
