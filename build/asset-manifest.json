@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.f0f8e35a.chunk.css",
-    "main.js": "/Personal-Portfolio/static/js/main.aa11cf00.chunk.js",
-    "main.js.map": "/Personal-Portfolio/static/js/main.aa11cf00.chunk.js.map",
+    "main.js": "/Personal-Portfolio/static/js/main.01b6fac7.chunk.js",
+    "main.js.map": "/Personal-Portfolio/static/js/main.01b6fac7.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.4158b287.js",
     "runtime-main.js.map": "/Personal-Portfolio/static/js/runtime-main.4158b287.js.map",
-    "static/js/2.fc09ac69.chunk.js": "/Personal-Portfolio/static/js/2.fc09ac69.chunk.js",
-    "static/js/2.fc09ac69.chunk.js.map": "/Personal-Portfolio/static/js/2.fc09ac69.chunk.js.map",
+    "static/js/2.034beb57.chunk.js": "/Personal-Portfolio/static/js/2.034beb57.chunk.js",
+    "static/js/2.034beb57.chunk.js.map": "/Personal-Portfolio/static/js/2.034beb57.chunk.js.map",
     "index.html": "/Personal-Portfolio/index.html",
-    "precache-manifest.0ba0035c6dcc798dcf7fde362991c9b5.js": "/Personal-Portfolio/precache-manifest.0ba0035c6dcc798dcf7fde362991c9b5.js",
+    "precache-manifest.b974d29eba03970a4377e195cf22fc59.js": "/Personal-Portfolio/precache-manifest.b974d29eba03970a4377e195cf22fc59.js",
     "service-worker.js": "/Personal-Portfolio/service-worker.js",
     "static/css/main.f0f8e35a.chunk.css.map": "/Personal-Portfolio/static/css/main.f0f8e35a.chunk.css.map",
-    "static/js/2.fc09ac69.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.fc09ac69.chunk.js.LICENSE.txt",
+    "static/js/2.034beb57.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.034beb57.chunk.js.LICENSE.txt",
     "static/media/MyIcon.png": "/Personal-Portfolio/static/media/MyIcon.276df84c.png",
     "static/media/global.scss": "/Personal-Portfolio/static/media/storyBackground-01.54496bfe.svg",
     "static/media/codeigniter.png": "/Personal-Portfolio/static/media/codeigniter.6c61cb2b.png",
@@ -23,6 +23,7 @@
     "static/media/html-css-js-jquery.png": "/Personal-Portfolio/static/media/html-css-js-jquery.d7e858ef.png",
     "static/media/laravel.png": "/Personal-Portfolio/static/media/laravel.84997e8f.png",
     "static/media/me.png": "/Personal-Portfolio/static/media/me.3507cb6e.png",
+    "static/media/nodejs.png": "/Personal-Portfolio/static/media/nodejs.a68a4f6d.png",
     "static/media/php.png": "/Personal-Portfolio/static/media/php.86bf3151.png",
     "static/media/react.png": "/Personal-Portfolio/static/media/react.59aae50d.png",
     "static/media/rest-api.png": "/Personal-Portfolio/static/media/rest-api.c5b95f16.png",
@@ -33,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4158b287.js",
-    "static/js/2.fc09ac69.chunk.js",
+    "static/js/2.034beb57.chunk.js",
     "static/css/main.f0f8e35a.chunk.css",
-    "static/js/main.aa11cf00.chunk.js"
+    "static/js/main.01b6fac7.chunk.js"
   ]
 }
