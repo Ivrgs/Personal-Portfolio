@@ -71,7 +71,9 @@
             }
             img{
                 @include rounded_img;
-                box-shadow: unset;
+                box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+                cursor: pointer;
+                
                 &:hover{
                     @include rounded_img_hover;
                    
