@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb666971cceebb28784659beb6efa3db",
+    "revision": "30490edfefc953e74532fe3ff2d740b6",
     "url": "/index.html"
   },
   {
-    "revision": "777938330d75546371b8",
-    "url": "/static/css/main.f139c612.chunk.css"
+    "revision": "fb0b7f69e7ac799a2513",
+    "url": "/static/css/main.ce7b1114.chunk.css"
   },
   {
     "revision": "f49363ff59b1b1c3285f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.034beb57.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "777938330d75546371b8",
-    "url": "/static/js/main.b2155aaa.chunk.js"
+    "revision": "fb0b7f69e7ac799a2513",
+    "url": "/static/js/main.2f3cfc9b.chunk.js"
   },
   {
     "revision": "008aefb0927de5ee9862",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6c61cb2b1c35c6e7408197c3244b57a8",
     "url": "/static/media/codeigniter.6c61cb2b.png"
+  },
+  {
+    "revision": "8d952bb7836c99cdca8433db908a3df6",
+    "url": "/static/media/game-commerce-design.8d952bb7.jpg"
   },
   {
     "revision": "9760551bed8888f9af34839350a1a802",
@@ -80,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/react.59aae50d.png"
   },
   {
+    "revision": "6ae74755c154441751cb33c424b8a8cf",
+    "url": "/static/media/real-estate-design.6ae74755.jpg"
+  },
+  {
     "revision": "c5b95f16a441f3bc1b7dbb7feb7d1728",
     "url": "/static/media/rest-api.c5b95f16.png"
   },
@@ -88,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sass.7f519624.png"
   },
   {
-    "revision": "6aa487848383171dd47d6f4880d7a2f0",
-    "url": "/static/media/seiranow.6aa48784.jpg"
+    "revision": "be50943a77f185801d32f8d605b1f921",
+    "url": "/static/media/sieranow-design.be50943a.jpg"
   },
   {
     "revision": "54496bfecff6913a8ae289c5186f7b58",
